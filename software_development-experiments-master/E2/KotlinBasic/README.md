@@ -714,16 +714,16 @@ fun lengthString(maybeString: String?): Int? = maybeString?.length   传入null 
 
 
 
-非空断言操作符 `!!`（慎用！）
+非空断言操作符 `!!`
 
 **强制告诉编译器：这个对象绝对不为 null**。如果对象实际上为 null，会立即抛出 `NullPointerException`。
 
 ```
   val email: String? = "test@123.com"
-      println(email!!.length) // ✅ 输出：12
+      println(email!!.length) //输出：12
 
       val nullEmail: String? = null
-      println(nullEmail!!.length) // ❌ 运行时崩溃：NullPointerException
+      println(nullEmail!!.length) //运行时崩溃：NullPointerException
 
 ```
 
