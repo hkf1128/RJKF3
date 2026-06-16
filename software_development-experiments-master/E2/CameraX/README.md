@@ -4,7 +4,7 @@
 
 ## 一 目的
 
-   完成一个基于cameraX的相机app
+   基于cameraX的相机app
 
 
 
@@ -12,7 +12,7 @@
 
 ​     明确gradle和cameraX的依赖适配性，采用传统的xml形式完成ui设计，注意兼容性。以gradle9.4.1为例
 
-  1**.前提准备**
+  1.前提准备
 
 
 
@@ -120,7 +120,7 @@ val imageAnalyzer = ImageAnalysis.Builder().build().also {
     it.setAnalyzer(cameraExecutor, LuminosityAnalyzer { luma ->
         Log.d(TAG, "Average luminosity: $luma")
     })
-} //每一帧画面都拿去算亮度，然后打印日志
+} //计算亮度，然后打印日志
 ```
 
 <img width="1132" height="600" alt="image" src="https://github.com/user-attachments/assets/f0eaee93-ac47-41b7-8e22-402769640ab0" />
