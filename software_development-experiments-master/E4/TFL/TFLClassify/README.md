@@ -142,7 +142,7 @@ private val flowerModel: FlowerModel by lazy {
 
 ​    导出start的apk文件，在真机运行.
 
-rose
+玫瑰
 
 <img width="449" height="899" alt="image" src="https://github.com/user-attachments/assets/18394c87-06a0-4fec-a4a1-2ccafdb578d9" />
 
@@ -160,7 +160,7 @@ rose
 
 <img width="433" height="882" alt="image" src="https://github.com/user-attachments/assets/5f6d8e30-70a7-4329-94fd-636cdeeb9ef5" />
 
-  雏菊daisy
+雏菊
 
 <img width="424" height="899" alt="image" src="https://github.com/user-attachments/assets/e801f5b0-e8ac-4185-9085-5fc0f1aeacbf" />
 
